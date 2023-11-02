@@ -1,0 +1,136 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = 'Elmsley-Barr Surveyors'
+theme = "spectral"
+defaultContentLanguage = "en"
+paginate = 7
+
+[params]
+fancyTitle = "Elmsley-Barr Surveyors" # title for frontpage, may include image
+copyright = "Nathan Barraclough"
+description = "The Trusted Business Rates Surveyors<br> helping companies obtain an accurate assessment, fair valuation and the correct Rateable Value."
+startbuttonText = "Contact"
+startbuttonLink = "#"
+body_is_markdown = true
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'When it comes to the Business rates industry there are three things we honour:'
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/honesty.png"
+img_alt = "blurry background: white/grey"
+title = 'Honesty'
+body = 'It should be obvious, but when it comes to a lot of Companies in this Industry this seems to be ignored, I can only speak from my experience'
+
+[[params.two.section]]
+img = "img/communication.png"
+title = 'Communication'
+body = 'This comes down to the communication between us and the client, the last thing you want is to be chasing your consultant for weeks to get an update.'
+
+[[params.two.section]]
+img = "img/savings.png"
+title = 'Reductions'
+body = "This is a very vital factor, as it is our Job! It comes down to the fact I can only speak from experience, companies will pursue an appeal even without the evidence of a reduction due to the upfront fees people are taking, the way we work is, no evidence no case it's that simple."
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
