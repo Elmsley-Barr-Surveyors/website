@@ -6,11 +6,11 @@ defaultContentLanguage = "en"
 paginate = 7
 
 [params]
-fancyTitle = "Elmsley-Barr Surveyors" # title for frontpage, may include image
+fancyTitle = "Elmsley-Barr Surveyors"
 copyright = "Nathan Barraclough"
 description = "The Trusted Business Rates Surveyors<br> helping companies obtain an accurate assessment, fair valuation and the correct Rateable Value."
 startbuttonText = "Contact"
-startbuttonLink = "#"
+startbuttonLink = "#contact"
 body_is_markdown = true
 
 [[params.menu.main]]
@@ -18,8 +18,12 @@ url = '/'
 title = "Home"
 
 [[params.menu.main]]
-url = '/posts/'
-title = "Posts"
+url = '/our-services/'
+title = "Our Services"
+
+[[params.menu.main]]
+url = '/#contact'
+title = "Contact Us"
 
 [taxonomies]
     tag = "tags"
@@ -49,67 +53,83 @@ img = "img/savings.png"
 title = 'Reductions'
 body = "This is a very vital factor, as it is our Job! It comes down to the fact I can only speak from experience, companies will pursue an appeal even without the evidence of a reduction due to the upfront fees people are taking, the way we work is, no evidence no case it's that simple."
 
-[params.three]
-enable = true
-title = 'Accumsan mus tortor nunc aliquet'
-body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-'''
+# [params.three]
+# enable = true
+# title = 'Accumsan mus tortor nunc aliquet'
+# body = '''
+# Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+# fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+# '''
 
-[[params.three.feature]]
-icon = "fa-paper-plane"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "fa-paper-plane"
+# title = "Arcu accumsan"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "solid fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "solid fa-laptop"
+# title = "Ac Augue Eget"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "solid fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "solid fa-code"
+# title = "Foo bar"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "solid fa-headphones-alt"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "solid fa-headphones-alt"
+# title = "Baz kram"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "fa-heart"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "fa-heart"
+# title = "Some latin text"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[[params.three.feature]]
-icon = "fa-flag"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+# [[params.three.feature]]
+# icon = "fa-flag"
+# title = "Nothing important"
+# body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
-[params.cta]
-enable = true
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+# [params.cta]
+# enable = true
+# title = "Arcue ut vel commodo"
+# body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
 
-[[params.cta.link]]
-href = "#"
-text = "Activate"
-special = true
+# [[params.cta.link]]
+# href = "#"
+# text = "Activate"
+# special = true
 
-[[params.cta.link]]
-href = "#"
-text = "Learn More"
-special = false
+# [[params.cta.link]]
+# href = "#"
+# text = "Learn More"
+# special = false
 
 [params.contact]
 enable = true
 title = "Contact"
-body = "Leave us a message."
-phone = "+49 (0) 030 000 000"
-address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
-subject = "New Submission!"
+body = '''
+Telephone Number: 0121 602 5571
+
+Email Address: info@elmsley-barr.co.uk
+
+**Opening hours:**
+
+Monday: 9am – 5:00pm
+
+Tuesday: 9am – 5:00pm
+
+Wednesday: 9am – 5:00pm
+
+Thursday: 9am – 5:00pm
+
+Friday: 9am - 5:00pm 
+'''
+# phone = "+49 (0) 030 000 000"
+address = "Citibase Halesowen, Trinity Point, Halesowen, West Midlands, B63 3HY"
+email = "info@elmsley-barr.co.uk"
+subject = "Contact from Website"
 formspree_form_id = "example_invalid"
 
 [params.social]
