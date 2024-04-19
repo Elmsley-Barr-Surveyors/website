@@ -41,7 +41,7 @@ enable = true
 img = "img/honesty.png"
 img_alt = "blurry background: white/grey"
 title = 'Honesty'
-body = 'It should be obvious, but when it comes to a lot of Companies in this Industry this seems to be ignored, I can only speak from my experience'
+body = 'It should be obvious, but when it comes to a lot of Companies in this Industry this seems to be ignored, I can only speak from my experience.'
 
 [[params.two.section]]
 img = "img/communication.png"
