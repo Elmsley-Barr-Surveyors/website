@@ -30,6 +30,9 @@ title = "Contact Us"
     category = "categories"
     series = "series"
 
+[params.business_rates]
+enable = true
+
 [params.one]
 enable = true
 title = 'When it comes to the Business rates industry there are three things we honour:'

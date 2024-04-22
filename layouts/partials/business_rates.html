@@ -1,0 +1,30 @@
+{{ $md := .Site.Params.body_is_markdown | default false }}
+
+{{ with .Site.Params.one }}
+{{ if .enable }}
+	<section id="business_rates" class="wrapper style5">
+		<div class="inner">
+			<header class="major">
+        <h2>Business Rates Increase</h2>
+
+        {{ partial "body_text.html" (dict "context" . "md" $md) }}
+			</header>
+			<p> The increase in business rates, also known as business rates valuation or revaluation, refers to the periodic reassessment of the rateable value of non-residential properties used for commercial purposes. This reassessment is conducted by government authorities to ensure that business rates reflect the current rental value of properties and to distribute the tax burden fairly among businesses.</p>
+			<p>There are several reasons why an increase in business rates warrants closer inspection of a property:</p>
+			<ul>
+				<li><b>1. Financial Impact:</b> An increase in business rates directly affects a business's operating costs. Higher rates mean increased expenses, which can impact profitability, especially for small or struggling businesses. Therefore, it is crucial for businesses to understand the reasons behind the rate increase and assess its financial implications.</li>
+				<li><b>2. Property Assessment Accuracy:</b> Business rates are based on the rateable value of a property, which is determined by factors such as location, size, condition, and intended use. Mistakes or inaccuracies in the property assessment can lead to unjustified rate increases. Conducting a closer inspection of the property allows businesses to verify the accuracy of the assessment and identify any discrepancies that may warrant an appeal or challenge.</li>
+				<li><b>3. Market Changes:</b> Changes in the local property market, such as fluctuations in rental values or shifts in demand, can influence business rates. If the property's rateable value has increased due to market changes, businesses need to assess whether the increase reflects the property's true value or if there are mitigating factors that could justify a reassessment.</li>
+				<li><b>4. Property Modifications:</b> Any alterations, improvements, or changes in the use of a property can impact its rateable value and, consequently, its business rates. Businesses should inspect the property to determine if recent renovations, expansions, or changes in occupancy have been accurately reflected in the valuation.</b></li>
+				<li><b>5. Appeal Opportunities:</b> In cases where businesses believe that the increase in business rates is unjustified or incorrect, they have the right to appeal the valuation. A closer inspection of the property can help businesses gather evidence to support their appeal, such as comparable rental values, property condition assessments, or documentation of changes that may affect the valuation.</b></li>
+			</ul>
+			<p>In summary, an increase in business rates warrants a closer inspection of the property to ensure accuracy, assess financial implications, identify potential appeal opportunities, and understand the reasons behind the rate increase. By conducting a thorough examination, businesses can make informed decisions and take appropriate actions to manage their tax liabilities effectively.</p>
+			<ul class="icons major">
+        {{ range .icon }}
+        <li><span class="icon {{ .icon }} major style{{ .style }}"><span class="label">{{ .label }}</span></span></li>
+        {{ end }}
+			</ul>
+		</div>
+	</section>
+{{ end }}
+{{ end }}
