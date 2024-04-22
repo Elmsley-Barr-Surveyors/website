@@ -22,6 +22,10 @@ url = '/our-services/'
 title = "Our Services"
 
 [[params.menu.main]]
+url = '/business-rates-relief/'
+title = "Business Rates Relief"
+
+[[params.menu.main]]
 url = '/#contact'
 title = "Contact Us"
 
