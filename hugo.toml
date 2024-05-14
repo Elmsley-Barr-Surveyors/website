@@ -119,7 +119,7 @@ title = "Contact"
 body = '''
 Telephone Number: 0121 602 5571
 
-Email Address: info@elmsley-barr.co.uk
+Email Address: info@elmsleybarrsurveyors.co.uk
 
 **Opening hours:**
 
@@ -134,8 +134,8 @@ Thursday: 9am – 5:00pm
 Friday: 9am - 5:00pm 
 '''
 # phone = "+49 (0) 030 000 000"
-address = "Citibase Halesowen, Trinity Point, Halesowen, West Midlands, B63 3HY"
-email = "info@elmsley-barr.co.uk"
+address = "Key Spaces Halesowen, Trinity Point, Halesowen, West Midlands, B63 3HY"
+email = "info@elmsleybarrsurveyors.co.uk"
 subject = "Contact from Website"
 formspree_form_id = "mgejqnza"
 
