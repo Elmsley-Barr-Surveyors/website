@@ -4,7 +4,7 @@
     <title>Elmsley-Barr Surveyors</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Elmsley-Barr Surveyors</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>Telephone Number: 0121 602 5571 Email Address: info@elmsley-barr.co.uk Opening hours: Monday: 9am – 5:00pm Tuesday: 9am – 5:00pm Wednesday: 9am – 5:00pm Thursday: 9am – 5:00pm Friday: 9am - 5:00pm</description>
+      <description>&lt;p&gt;Telephone Number: 0121 602 5571&#xA;Email Address: &lt;a href=&#34;mailto:info@elmsley-barr.co.uk&#34;&gt;info@elmsley-barr.co.uk&lt;/a&gt;&#xA;Opening hours: Monday: 9am – 5:00pm&#xA;Tuesday: 9am – 5:00pm&#xA;Wednesday: 9am – 5:00pm&#xA;Thursday: 9am – 5:00pm&#xA;Friday: 9am - 5:00pm&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/our-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/our-services/</guid>
-      <description>Our Services As a company we have Three years experience with the industry of Commercial Property tax, as this may not seem like a long time, we have took everything into account in regards to getting companies the right valuation and a reduction in Business rates. The main aspect is honesty, as a lot of companies within the industry do seem to ignore this factor…&#xA;Here at Elmsley-Barr we take our clients needs as our personnel needs as we would be in contact for Four-Six months as the appeal goes on, so you would not be waiting around for days to get in touch with one of our customer representatives.</description>
+      <description>&lt;h3 id=&#34;our-services&#34;&gt;Our Services&lt;/h3&gt;&#xA;&lt;p&gt;As a company we have Three years experience with the industry of Commercial Property tax, as this may not seem like a long time, we have took everything into account in regards to getting companies the right valuation and a reduction in Business rates. The main aspect is honesty, as a lot of companies within the industry do seem to ignore this factor…&lt;/p&gt;&#xA;&lt;p&gt;Here at Elmsley-Barr we take our clients needs as our personnel needs as we would be in contact for Four-Six months as the appeal goes on, so you would not be waiting around for days to get in touch with one of our customer representatives. We are a west midlands family run business specializing in getting you the correct and fair valuation you deserve!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
